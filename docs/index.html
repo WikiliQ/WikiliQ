@@ -10,7 +10,7 @@
 				line-height: 1.6;
 				max-width: 960px;
 				margin: 0 auto;
-				padding: 20px;
+				padding: 0;
 			}
 			h1,
 			h2 {
@@ -34,11 +34,26 @@
 				grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 				gap: 8px;
 			}
+			.logo {
+				margin: 0;
+				padding: 0;
+				display: block;
+				line-height: 0;
+			}
+			.logo img {
+				width: 100%;
+				height: auto;
+				display: block;
+				margin: 0;
+				padding: 0;
+			}
 		</style>
 	</head>
 	<body>
+		<div class="logo">
+			<img src="images/wikiliq.png" alt="WikiliQ Logo" />
+		</div>
 		<h1>🥂 WikiliQ – Encyclopedia of Liquor Brands</h1>
-
 		<p>
 			<strong
 				>Welcome to
